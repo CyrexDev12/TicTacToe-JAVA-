@@ -49,7 +49,7 @@ public class Tictactoe extends JFrame implements ActionListener {
                     int status = logic.getMove(); // Get the current state of the game
 
                     if (status == 1 || status == 2) {
-                        JOptionPane.showMessageDialog(this, "Player " + status + " wins !");
+                        JOptionPane.showMessageDialog(this, "Player " + status + " wins!");
                         resetBoard();
                     } else if (status == 3) {
                         JOptionPane.showMessageDialog(this, "It's a tie!");
